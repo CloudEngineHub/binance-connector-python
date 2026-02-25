@@ -98,12 +98,6 @@ from .compressed_aggregate_trades_list_response_inner import (
 from .continuous_contract_kline_candlestick_data_response import (
     ContinuousContractKlineCandlestickDataResponse as ContinuousContractKlineCandlestickDataResponse,
 )
-from .continuous_contract_kline_candlestick_data_response_item import (
-    ContinuousContractKlineCandlestickDataResponseItem as ContinuousContractKlineCandlestickDataResponseItem,
-)
-from .continuous_contract_kline_candlestick_data_response_item_inner import (
-    ContinuousContractKlineCandlestickDataResponseItemInner as ContinuousContractKlineCandlestickDataResponseItemInner,
-)
 from .current_all_algo_open_orders_response import (
     CurrentAllAlgoOpenOrdersResponse as CurrentAllAlgoOpenOrdersResponse,
 )
@@ -224,23 +218,11 @@ from .get_position_margin_change_history_response_inner import (
 from .index_price_kline_candlestick_data_response import (
     IndexPriceKlineCandlestickDataResponse as IndexPriceKlineCandlestickDataResponse,
 )
-from .index_price_kline_candlestick_data_response_item import (
-    IndexPriceKlineCandlestickDataResponseItem as IndexPriceKlineCandlestickDataResponseItem,
-)
-from .index_price_kline_candlestick_data_response_item_inner import (
-    IndexPriceKlineCandlestickDataResponseItemInner as IndexPriceKlineCandlestickDataResponseItemInner,
-)
 from .keepalive_user_data_stream_response import (
     KeepaliveUserDataStreamResponse as KeepaliveUserDataStreamResponse,
 )
 from .kline_candlestick_data_response import (
     KlineCandlestickDataResponse as KlineCandlestickDataResponse,
-)
-from .kline_candlestick_data_response_item import (
-    KlineCandlestickDataResponseItem as KlineCandlestickDataResponseItem,
-)
-from .kline_candlestick_data_response_item_inner import (
-    KlineCandlestickDataResponseItemInner as KlineCandlestickDataResponseItemInner,
 )
 from .list_all_convert_pairs_response import (
     ListAllConvertPairsResponse as ListAllConvertPairsResponse,
@@ -254,12 +236,6 @@ from .long_short_ratio_response_inner import (
 )
 from .mark_price_kline_candlestick_data_response import (
     MarkPriceKlineCandlestickDataResponse as MarkPriceKlineCandlestickDataResponse,
-)
-from .mark_price_kline_candlestick_data_response_item import (
-    MarkPriceKlineCandlestickDataResponseItem as MarkPriceKlineCandlestickDataResponseItem,
-)
-from .mark_price_kline_candlestick_data_response_item_inner import (
-    MarkPriceKlineCandlestickDataResponseItemInner as MarkPriceKlineCandlestickDataResponseItemInner,
 )
 from .mark_price_response import MarkPriceResponse as MarkPriceResponse
 from .mark_price_response1 import MarkPriceResponse1 as MarkPriceResponse1
@@ -365,12 +341,6 @@ from .position_information_v3_response_inner import (
 )
 from .premium_index_kline_data_response import (
     PremiumIndexKlineDataResponse as PremiumIndexKlineDataResponse,
-)
-from .premium_index_kline_data_response_item import (
-    PremiumIndexKlineDataResponseItem as PremiumIndexKlineDataResponseItem,
-)
-from .premium_index_kline_data_response_item_inner import (
-    PremiumIndexKlineDataResponseItemInner as PremiumIndexKlineDataResponseItemInner,
 )
 from .quarterly_contract_settlement_price_response import (
     QuarterlyContractSettlementPriceResponse as QuarterlyContractSettlementPriceResponse,

@@ -96,8 +96,6 @@ from .historical_trades_response_inner import (
     HistoricalTradesResponseInner as HistoricalTradesResponseInner,
 )
 from .iceberg_parts_filter import IcebergPartsFilter as IcebergPartsFilter
-from .klines_item import KlinesItem as KlinesItem
-from .klines_item_inner import KlinesItemInner as KlinesItemInner
 from .klines_response import KlinesResponse as KlinesResponse
 from .lot_size_filter import LotSizeFilter as LotSizeFilter
 from .market_lot_size_filter import MarketLotSizeFilter as MarketLotSizeFilter
@@ -285,7 +283,6 @@ from .ticker_trading_day_response2_inner import (
 )
 from .time_response import TimeResponse as TimeResponse
 from .trailing_delta_filter import TrailingDeltaFilter as TrailingDeltaFilter
-from .ui_klines_item import UiKlinesItem as UiKlinesItem
 from .ui_klines_response import UiKlinesResponse as UiKlinesResponse
 
 

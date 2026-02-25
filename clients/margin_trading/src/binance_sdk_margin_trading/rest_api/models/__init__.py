@@ -95,6 +95,9 @@ from .get_margin_asset_risk_based_liquidation_ratio_response import (
 from .get_margin_asset_risk_based_liquidation_ratio_response_inner import (
     GetMarginAssetRiskBasedLiquidationRatioResponseInner as GetMarginAssetRiskBasedLiquidationRatioResponseInner,
 )
+from .get_margin_restricted_assets_response import (
+    GetMarginRestrictedAssetsResponse as GetMarginRestrictedAssetsResponse,
+)
 from .get_small_liability_exchange_coin_list_response import (
     GetSmallLiabilityExchangeCoinListResponse as GetSmallLiabilityExchangeCoinListResponse,
 )
@@ -305,6 +308,12 @@ from .query_margin_priceindex_response import (
 from .query_max_borrow_response import QueryMaxBorrowResponse as QueryMaxBorrowResponse
 from .query_max_transfer_out_amount_response import (
     QueryMaxTransferOutAmountResponse as QueryMaxTransferOutAmountResponse,
+)
+from .query_prevented_matches_response import (
+    QueryPreventedMatchesResponse as QueryPreventedMatchesResponse,
+)
+from .query_prevented_matches_response_inner import (
+    QueryPreventedMatchesResponseInner as QueryPreventedMatchesResponseInner,
 )
 from .query_special_key_list_response import (
     QuerySpecialKeyListResponse as QuerySpecialKeyListResponse,

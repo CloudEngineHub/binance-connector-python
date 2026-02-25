@@ -24,6 +24,7 @@ from ..models import GetDelistScheduleResponse
 from ..models import GetLimitPricePairsResponse
 from ..models import GetListScheduleResponse
 from ..models import GetMarginAssetRiskBasedLiquidationRatioResponse
+from ..models import GetMarginRestrictedAssetsResponse
 from ..models import QueryIsolatedMarginTierDataResponse
 from ..models import QueryLiabilityCoinLeverageBracketInCrossMarginProModeResponse
 from ..models import QueryMarginAvailableInventoryResponse
@@ -346,6 +347,42 @@ class MarketDataApi:
             body=body,
             time_unit=self._configuration.time_unit,
             response_model=GetMarginAssetRiskBasedLiquidationRatioResponse,
+        )
+
+    def get_margin_restricted_assets(
+        self,
+    ) -> ApiResponse[GetMarginRestrictedAssetsResponse]:
+        """
+                Get Margin Restricted Assets (MARKET_DATA)
+                GET /sapi/v1/margin/restricted-asset
+                https://developers.binance.com/docs/margin_trading/market-data/Get-Margin-Restricted-Assets
+
+                Get Margin Restricted Assets
+
+        Weight: 1
+
+                Args:
+
+                Returns:
+                    ApiResponse[GetMarginRestrictedAssetsResponse]
+
+                Raises:
+                    RequiredError: If a required parameter is missing.
+
+        """
+
+        body = None
+        payload = None
+
+        return send_request(
+            self._session,
+            self._configuration,
+            method="GET",
+            path="/sapi/v1/margin/restricted-asset",
+            payload=payload,
+            body=body,
+            time_unit=self._configuration.time_unit,
+            response_model=GetMarginRestrictedAssetsResponse,
         )
 
     def query_isolated_margin_tier_data(

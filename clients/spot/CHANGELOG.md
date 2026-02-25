@@ -1,5 +1,19 @@
 # Changelog
 
+## 7.2.0 - 2026-02-25
+
+### Changed (2)
+
+#### REST API
+
+- Updated following response models to remove unused struct:
+  - `KlinesResponse`
+  - `UiKlinesResponse`
+
+#### WebSocket API
+
+- Fixed error in `KlinesResponse` and `UiKlinesResponse` models by removing `KlinesItemInner` struct.
+
 ## 7.1.0 - 2026-02-11
 
 ### Changed (2)

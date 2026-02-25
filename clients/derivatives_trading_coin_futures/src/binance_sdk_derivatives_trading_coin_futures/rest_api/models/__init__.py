@@ -64,12 +64,6 @@ from .compressed_aggregate_trades_list_response_inner import (
 from .continuous_contract_kline_candlestick_data_response import (
     ContinuousContractKlineCandlestickDataResponse as ContinuousContractKlineCandlestickDataResponse,
 )
-from .continuous_contract_kline_candlestick_data_response_item import (
-    ContinuousContractKlineCandlestickDataResponseItem as ContinuousContractKlineCandlestickDataResponseItem,
-)
-from .continuous_contract_kline_candlestick_data_response_item_inner import (
-    ContinuousContractKlineCandlestickDataResponseItemInner as ContinuousContractKlineCandlestickDataResponseItemInner,
-)
 from .current_all_open_orders_response import (
     CurrentAllOpenOrdersResponse as CurrentAllOpenOrdersResponse,
 )
@@ -160,12 +154,6 @@ from .index_price_and_mark_price_response_inner import (
 from .index_price_kline_candlestick_data_response import (
     IndexPriceKlineCandlestickDataResponse as IndexPriceKlineCandlestickDataResponse,
 )
-from .index_price_kline_candlestick_data_response_item import (
-    IndexPriceKlineCandlestickDataResponseItem as IndexPriceKlineCandlestickDataResponseItem,
-)
-from .index_price_kline_candlestick_data_response_item_inner import (
-    IndexPriceKlineCandlestickDataResponseItemInner as IndexPriceKlineCandlestickDataResponseItemInner,
-)
 from .keepalive_user_data_stream_response import (
     KeepaliveUserDataStreamResponse as KeepaliveUserDataStreamResponse,
 )
@@ -181,12 +169,6 @@ from .long_short_ratio_response_inner import (
 )
 from .mark_price_kline_candlestick_data_response import (
     MarkPriceKlineCandlestickDataResponse as MarkPriceKlineCandlestickDataResponse,
-)
-from .mark_price_kline_candlestick_data_response_item import (
-    MarkPriceKlineCandlestickDataResponseItem as MarkPriceKlineCandlestickDataResponseItem,
-)
-from .mark_price_kline_candlestick_data_response_item_inner import (
-    MarkPriceKlineCandlestickDataResponseItemInner as MarkPriceKlineCandlestickDataResponseItemInner,
 )
 from .modify_isolated_position_margin_response import (
     ModifyIsolatedPositionMarginResponse as ModifyIsolatedPositionMarginResponse,
@@ -263,12 +245,6 @@ from .position_information_response_inner import (
 )
 from .premium_index_kline_data_response import (
     PremiumIndexKlineDataResponse as PremiumIndexKlineDataResponse,
-)
-from .premium_index_kline_data_response_item import (
-    PremiumIndexKlineDataResponseItem as PremiumIndexKlineDataResponseItem,
-)
-from .premium_index_kline_data_response_item_inner import (
-    PremiumIndexKlineDataResponseItemInner as PremiumIndexKlineDataResponseItemInner,
 )
 from .query_current_open_order_response import (
     QueryCurrentOpenOrderResponse as QueryCurrentOpenOrderResponse,

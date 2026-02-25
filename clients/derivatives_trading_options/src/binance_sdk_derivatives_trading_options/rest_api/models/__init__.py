@@ -96,12 +96,6 @@ from .index_price_response import IndexPriceResponse as IndexPriceResponse
 from .kline_candlestick_data_response import (
     KlineCandlestickDataResponse as KlineCandlestickDataResponse,
 )
-from .kline_candlestick_data_response_item import (
-    KlineCandlestickDataResponseItem as KlineCandlestickDataResponseItem,
-)
-from .kline_candlestick_data_response_item_inner import (
-    KlineCandlestickDataResponseItemInner as KlineCandlestickDataResponseItemInner,
-)
 from .new_block_trade_order_response import (
     NewBlockTradeOrderResponse as NewBlockTradeOrderResponse,
 )

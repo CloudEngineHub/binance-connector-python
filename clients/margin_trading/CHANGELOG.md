@@ -1,5 +1,14 @@
 # Changelog
 
+## 6.0.0 - 2026-02-25
+
+### Added (2)
+
+#### REST API
+
+- `get_margin_restricted_assets()` (`GET /sapi/v1/margin/restricted-asset`)
+- `query_prevented_matches()` (`GET /sapi/v1/margin/myPreventedMatches`)
+
 ## 5.1.0 - 2026-02-11
 
 ### Changed (2)

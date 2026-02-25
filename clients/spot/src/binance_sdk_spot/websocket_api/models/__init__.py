@@ -88,7 +88,6 @@ from .exchange_max_num_orders_filter import (
 from .execution_report import ExecutionReport as ExecutionReport
 from .external_lock_update import ExternalLockUpdate as ExternalLockUpdate
 from .iceberg_parts_filter import IcebergPartsFilter as IcebergPartsFilter
-from .klines_item_inner import KlinesItemInner as KlinesItemInner
 from .klines_response import KlinesResponse as KlinesResponse
 from .list_status import ListStatus as ListStatus
 from .list_status_o_inner import ListStatusOInner as ListStatusOInner

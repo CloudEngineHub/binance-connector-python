@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.2.1 - 2026-02-25
+
+### Changed (1)
+
+- Updated `Klines_response` model to remove unused `KlinesResponseDataItemInner` struct
+
 ## 1.2.0 - 2026-02-11
 
 ### Changed (2)
