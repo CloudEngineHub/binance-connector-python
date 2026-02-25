@@ -1,5 +1,11 @@
 # Changelog
 
+## 5.3.1 - 2026-02-25
+
+### Changed (1)
+
+- Updated `KlineCandlestickDataResponse` response models to remove unused `KlineCandlestickDataResponseItem` struct
+
 ## 5.3.0 - 2026-02-11
 
 ### Changed (2)

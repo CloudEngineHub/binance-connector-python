@@ -1,5 +1,16 @@
 # Changelog
 
+## 7.1.1 - 2026-02-25
+
+### Changed (1)
+
+- Updated following response models to remove unused struct:
+  - `ContinuousContractKlineCandlestickDataResponse`
+  - `IndexPriceKlineCandlestickDataResponse`
+  - `KlineCandlestickDataResponse`
+  - `MarkPriceKlineCandlestickDataResponse`
+  - `PremiumIndexKlineDataResponse`
+
 ## 7.1.0 - 2026-02-11
 
 ### Changed (3)

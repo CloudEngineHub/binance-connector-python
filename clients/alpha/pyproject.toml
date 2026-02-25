@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "binance-sdk-alpha"
-version = "1.2.0"
+version = "1.2.1"
 description = "Official Binance Alpha Connector - A lightweight library that provides a convenient interface to Binance's Alpha REST API"
 authors = ["Binance"]
 license = "MIT"

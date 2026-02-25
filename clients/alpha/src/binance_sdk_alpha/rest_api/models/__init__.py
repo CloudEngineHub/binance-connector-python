@@ -30,10 +30,6 @@ from .get_exchange_info_response_data_symbols_inner_filters_inner import (
     GetExchangeInfoResponseDataSymbolsInnerFiltersInner as GetExchangeInfoResponseDataSymbolsInnerFiltersInner,
 )
 from .klines_response import KlinesResponse as KlinesResponse
-from .klines_response_data_item import KlinesResponseDataItem as KlinesResponseDataItem
-from .klines_response_data_item_inner import (
-    KlinesResponseDataItemInner as KlinesResponseDataItemInner,
-)
 from .ticker_response import TickerResponse as TickerResponse
 from .ticker_response_data import TickerResponseData as TickerResponseData
 from .token_list_response import TokenListResponse as TokenListResponse

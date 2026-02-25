@@ -23,7 +23,6 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictInt, StrictStr
 from typing import Any, ClassVar, Dict, List, Optional
-from binance_sdk_spot.websocket_api.models.klines_item_inner import KlinesItemInner
 from binance_sdk_spot.websocket_api.models.rate_limits import RateLimits
 from typing import Set
 from typing_extensions import Self
@@ -130,13 +129,7 @@ class UiKlinesResponse(BaseModel):
                 "id": obj.get("id"),
                 "status": obj.get("status"),
                 "result": (
-                    [
-                        [
-                            KlinesItemInner.from_dict(_inner_item)
-                            for _inner_item in _item
-                        ]
-                        for _item in obj["result"]
-                    ]
+                    obj["result"]
                     if obj.get("result") is not None
                     else None
                 ),
